@@ -1,0 +1,3 @@
+/workspace/mpi2324/cmake-build-debug/CMakeFiles/mpi2324.dir
+/workspace/mpi2324/cmake-build-debug/CMakeFiles/edit_cache.dir
+/workspace/mpi2324/cmake-build-debug/CMakeFiles/rebuild_cache.dir
