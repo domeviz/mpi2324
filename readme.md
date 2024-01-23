@@ -1,5 +1,6 @@
 Programacion Concurrente y Paralela
-mp
+
+MPI
 
 ## Instalacion MPI
 
