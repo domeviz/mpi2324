@@ -63,7 +63,7 @@ int main(int argc, char **argv) {
                 0,MPI_COMM_WORLD);
 
     //calcular la suma parcial
-    if(rank==nprocs){
+    if(rank==nprocs-1){
         block_size=block_size-padding;
     }
 

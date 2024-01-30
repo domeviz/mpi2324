@@ -19,6 +19,7 @@ int main(int argc, char** argv) {
         }
         for (int i = 0; i < nprocs; ++i) {
             std::printf("Enviando datos de RANK: %d\n",i);
+            std::printf("RANK_0 enviando datos a RANK_%d\n", i);
             MPI_Send(data, //datos
                      100, //cantidad
                      MPI_INT, //tipo de dato
@@ -28,6 +29,7 @@ int main(int argc, char** argv) {
             );
         }
     }else{
+        std::printf("RANK_%d recibiendo datos\n", rank);
         MPI_Recv(data,//datos
                  100, //
                  MPI_INT, //tipo de dato
